@@ -9,11 +9,24 @@ def main():
     if filename.endswith('.json'):
       print(f'Converting {filename}')
       with open(filename) as json_file:
-        convert_file(filename, json.load(json_file))
+        try:
+          convert_file(filename, json.load(json_file))
+        except:
+          print('[ERROR!] This file doesn\'t contain valid JSON. Check if it uses exclusively "", that it has no comments and , aren\'t used in the last element of an array')
+          print('https://jsonlint.com/ is pretty good for this purpose')
 
 def convert_file(filename, data):
   # Prepare the colors
-  plain_text_color = color_calculator(data['colors']['editor.foreground'])
+  plain_text_color = ''
+  try:
+    plain_text_color = color_calculator(data['colors']['editor.foreground'])
+  except:
+    try:
+      plain_text_color = color_calculator(data['colors']['editor.background'])
+    except:
+      print('[ERROR!] This file doesn\'t contain a background color')
+      return
+  
   background = color_calculator(data['colors']['editor.background'])
   error_color = -43691
   try:
