@@ -21,7 +21,7 @@ conversions 😀
 
 ### Hopscotch
 [Original Repo](https://github.com/idleberg/vscode-hopscotch)
-![Hopscotch Screenshot](img/schemes/Hopscotch.png)
+![Hopscotch Screenshot](img/schemes/hopscotch.png)
 
 ### Nord Color Theme
 [Original Repo](https://github.com/arcticicestudio/nord-visual-studio-code)
@@ -41,11 +41,11 @@ conversions 😀
 
 ### Winter is Coming Dark Blue
 [Original Repo](https://github.com/johnpapa/vscode-winteriscoming)
-![Winter is Coming Dark Blue Screenshot](img/schemes/WinterIsComing-dark-blue.png)
+![Winter is Coming Dark Blue Screenshot](img/schemes/winteriscoming-dark-blue.png)
 
 ### Winter is Coming Dark
 [Original Repo](https://github.com/johnpapa/vscode-winteriscoming)
-![Winter is Coming Dark Screenshot](img/schemes/WinterIsComing-dark.png)
+![Winter is Coming Dark Screenshot](img/schemes/winteriscoming-dark.png)
 
 ### Ayu-Light
 [Original Repo](https://github.com/ayu-theme/vscode-ayu)
@@ -53,4 +53,4 @@ conversions 😀
 
 ### Winter is Coming Light
 [Original Repo](https://github.com/johnpapa/vscode-winteriscoming)
-![Winter is Coming Light Screenshot](img/schemes/WinterIsComing-light.png)
+![Winter is Coming Light Screenshot](img/schemes/winteriscoming-light.png)
