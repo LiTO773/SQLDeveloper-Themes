@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="580.0" prefWidth="660.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Controller">
+   <top>
+      <VBox alignment="CENTER">
+         <ImageView fx:id="logoView" fitHeight="65" pickOnBounds="true" preserveRatio="true">
+            <VBox.margin>
+               <Insets bottom="5.0" />
+            </VBox.margin></ImageView>
+         <HBox alignment="CENTER">
+            <Label text="Destination  " textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <ComboBox fx:id="locations" prefWidth="540" />
+         </HBox>
+      </VBox>
+   </top>
+   <center>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="schemeVBox">
+               <children>
+                  <Label text="Choose which color schemes you want to install:" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+<!--                  The checklist is created in Controller -->
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets top="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </center>
+   <bottom>
+      <HBox alignment="BASELINE_RIGHT">
+         <Button graphicTextGap="7.0" mnemonicParsing="false" onAction="#reset" style="-fx-background-color: #a22874;" text="Reset to Default Schemes" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+            <font>
+               <Font name="System Bold" size="15.0" />
+            </font>
+            <HBox.margin>
+               <Insets right="10.0" />
+            </HBox.margin></Button>
+         <Button fx:id="patchButton" defaultButton="true" graphicTextGap="7.0" mnemonicParsing="false" onAction="#patch" style="-fx-background-color: #e6e617;" text="Patch!" textAlignment="CENTER" BorderPane.alignment="CENTER">
+            <font>
+               <Font name="System Bold" size="15.0" />
+            </font>
+         </Button>
+         <BorderPane.margin>
+            <Insets bottom="20.0" right="15.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+</BorderPane>

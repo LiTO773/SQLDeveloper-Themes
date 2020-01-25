@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pimpmysqldeveloper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pimpmysqldeveloper_jar</output-path>
+    <root id="archive" name="pimpmysqldeveloper.jar">
+      <element id="module-output" name="pimpmysqldeveloper" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/controlsfx/controlsfx/8.40.14/controlsfx-8.40.14.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
