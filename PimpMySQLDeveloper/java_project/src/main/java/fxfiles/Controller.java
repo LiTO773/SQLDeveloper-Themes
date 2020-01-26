@@ -1,4 +1,4 @@
-package project;
+package fxfiles;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,6 +9,9 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 import org.controlsfx.control.CheckListView;
+import project.AvailableSchemes;
+import project.PatchThemes;
+import project.SDInstalls;
 
 public class Controller {
 

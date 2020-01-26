@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="580.0" prefWidth="660.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Controller">
+<BorderPane prefHeight="580.0" prefWidth="660.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxfiles.Controller">
    <top>
       <VBox alignment="CENTER">
          <ImageView fx:id="logoView" fitHeight="65" pickOnBounds="true" preserveRatio="true">

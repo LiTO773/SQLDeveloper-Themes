@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="no-gui-PimpMySQLDeveloper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/no_gui_PimpMySQLDeveloper_jar</output-path>
+    <root id="archive" name="pimpmysqldeveloper.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/noguiMETAINF/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="pimpmysqldeveloper" />
+    </root>
+  </artifact>
+</component>
