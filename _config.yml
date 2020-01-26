@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+title: Pimp My SQLDeveloper
+description: Schemes, Ui themes and a theme patcher for SQLDeveloper
+show_downloads: true

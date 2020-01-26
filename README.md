@@ -4,11 +4,11 @@
 
 In this repository you will find:
 
-- [Pimp My SQLDeveloper](#pimp-my-sqldeveloper) - a tool that removes the hassle of installing schemes in SQLDeveloper
-
 - [Color Schemes](#color-schemes)
 
 - UI themes (WIP)
+
+- [Pimp My SQLDeveloper](./PimpMySQLDeveloper.html) - a tool that removes the hassle of installing schemes in SQLDeveloper
 
 Feel free to ask for new themes, report bugs or even contribute 😀!
 
