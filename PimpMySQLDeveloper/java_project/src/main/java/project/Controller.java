@@ -27,7 +27,6 @@ public class Controller {
         schemeVBox.getChildren().add(schemesList);
 
         // Set the installs available
-        SDInstalls.findInstalls();
         locations.getItems().addAll(SDInstalls.getInstalls());
         locations.setValue(SDInstalls.getInstalls().get(0));
     }

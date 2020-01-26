@@ -17,7 +17,7 @@ public class SDInstalls {
         installs = new ArrayList<>();
 
         // Get the correct platform path
-        String mainPath = "~/.sqldeveloper";
+        String mainPath = System.getProperty("user.home") + "/.sqldeveloper";
         if (System.getProperty("os.name").contains("Windows")) {
             mainPath = System.getenv("APPDATA") + "\\SQL Developer";
         }
